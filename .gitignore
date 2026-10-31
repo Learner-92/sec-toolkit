@@ -1,0 +1,12 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Output reports
+*.json
+
+# Environments
+venv/
+env/
+.env
