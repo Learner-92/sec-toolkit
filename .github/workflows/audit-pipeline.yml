@@ -2,9 +2,9 @@ name: Security Toolkit CI/CD & SAST Pipeline
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ main ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ main ]
 
 jobs:
   security-audit:
@@ -34,6 +34,6 @@ jobs:
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 
       - name: Run Semgrep SAST Scan (OWASP Top 10 Security Rules)
-      continue-on-error: true
-      run: |
-        semgrep scan --config auto
+        continue-on-error: true
+        run: |
+          semgrep scan --config auto
