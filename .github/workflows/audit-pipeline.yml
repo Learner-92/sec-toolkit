@@ -37,3 +37,6 @@ jobs:
         continue-on-error: true
         run: |
           semgrep scan --config auto
+      - name: Verify Docker Container Build
+        run: |
+          docker build -t sectoolkit:latest .
