@@ -1,5 +1,5 @@
 \# Web Audit Toolkit (SecToolkit)
-
+[![Security Toolkit CI/CD & SAST Pipeline](https://github.com/Learner-92/sec-toolkit/actions/workflows/audit-pipeline.yml/badge.svg)](https://github.com/Learner-92/sec-toolkit/actions/workflows/audit-pipeline.yml)
 
 
 A modular, lightweight Python-based command-line security auditing tool designed to automate baseline web application posture assessments.
